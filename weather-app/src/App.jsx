@@ -38,7 +38,7 @@ const WeatherApp = () => {
   return (
     <div>
       <h1>Check Weather</h1>
-      <input type="text" value={city} onChange={handleCityChange} placeholder="Enter city name" />
+      <input type="text" value={city} onChange={handleCityChange} placeholder="Enter city name..." />
 
       {weatherData && (
         <div>
